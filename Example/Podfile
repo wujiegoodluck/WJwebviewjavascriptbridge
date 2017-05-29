@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'WJwebviewjavascriptbridge_Example' do
+  pod 'WJwebviewjavascriptbridge', :path => '../'
+  target 'WJwebviewjavascriptbridge_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'  
+  end
+end

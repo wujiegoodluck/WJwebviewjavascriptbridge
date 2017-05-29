@@ -1,0 +1,30 @@
+{
+  "name": "WJwebviewjavascriptbridge",
+  "version": "0.1.0",
+  "summary": "OC与JS的交互",
+  "description": "+OC与JS的交互",
+  "homepage": "https://github.com/wujiegoodluck/WJwebviewjavascriptbridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wujiegoodluck": "452048961@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wujiegoodluck/WJwebviewjavascriptbridge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "WebViewJavascriptBridge": [
+      "~> 6.0.2"
+    ]
+  }
+}
