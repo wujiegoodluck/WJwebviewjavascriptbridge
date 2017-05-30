@@ -7,38 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0493FCCCC346B620AC23450404097BD1 /* webView_pop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E37A0EC644203441963E226CE28E759 /* webView_pop@3x.png */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		0CEBBA7F7719B85856E9C48E9583852E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD7B1C10B4FEB7D041998AC96E6EC0 /* ReplaceMe.m */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1C5323AA499536B558B02D21DC6CC6C2 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B185698322F820A7CD545560993A7DA2 /* WKWebViewController.m */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32EF1515AAB61DAA3C523F5E6BBBA4B8 /* WJwebviewjavascriptbridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF57296C355F6FE02458C459F7A41C5B /* WJwebviewjavascriptbridge-dummy.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		49A5F2A596A3264C396ED0B96E37AA24 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EB4EF7C2E3C1BCD91169CD87E528F0 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
+		63AE32C0D8D6888BDD2D2F442DFDB2BB /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9DAE1C8923E385EA62A6DE84485100 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		749A0D294F6963D91B57A31013D5C081 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = B778F381E9D5C9BB2C76A03800FF7A38 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		761E58A2110675BBE60C94F26290FE79 /* Pods-WJwebviewjavascriptbridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E332AE01B7FC72DA934D5A0A9D525A4 /* Pods-WJwebviewjavascriptbridge_Example-dummy.m */; };
+		78CE86AED7BF8CF056B5E265070EAC6B /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E025CA10963EF89A978D913186F227C /* WebViewJavascriptBridgeBase.m */; };
+		7C72EF7208D41D99644A0AA5B23AB661 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8630A726720C277E29DAA5BAFF709 /* WKWebViewJavascriptBridge.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF1D870D01010E061CDE2AC7F923293 /* XCTest.framework */; };
+		806E20FE21402E35CF497A7DCFEA10D0 /* WJwebviewjavascriptbridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E66E2760D981F3458CC781B6B7828CFB /* WJwebviewjavascriptbridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123D962D63F9B49EFA68E5DF0D35C95D /* UIKit.framework */; };
 		8D6E0E5AF13E32AE40F83CAF51C61109 /* Pods-WJwebviewjavascriptbridge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A48720C79055730DFC46631363472818 /* Pods-WJwebviewjavascriptbridge_Tests-dummy.m */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64771681F7D670ED1FB8E24BFB017797 /* Foundation.framework */; };
+		93FFED60B481D8D0E156C366F9623DA9 /* WJwebviewjavascriptbridge.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF27E3F8B020FAFFC3FBF259A0191F3F /* WJwebviewjavascriptbridge.bundle */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97986148A982C960E6526FCC91BE06B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64771681F7D670ED1FB8E24BFB017797 /* Foundation.framework */; };
+		A2E2DF21C10674A9AE6E6866CC09410D /* webView_pop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51708D819AFA57F6683FBC210455265F /* webView_pop@2x.png */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		A50285AD03E9BCACF36889359E69BDA4 /* webView_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE9527BF437B8F1B68BE3E14B628C91 /* webView_share@2x.png */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F8B91838D9E2DE42AF01ABF5DC7B18 /* QuartzCore.framework */; };
-		B5BE5650BA54139682BF6078AC9621B3 /* WJwebviewjavascriptbridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935087224673A6155A06F94A6B8C3AD /* WJwebviewjavascriptbridge-dummy.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B816D97D94F135FD06B190FE35F980BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123D962D63F9B49EFA68E5DF0D35C95D /* UIKit.framework */; };
+		BBB838F0FEBE851D3969203D477C5D74 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CA0F696067C8CBF5AD7BF30F11EB9C /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBD2E3113B8FC0065A4CEC22DBC238BD /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDAD454C7C924CF0947DB51AB89BBFC /* WebViewJavascriptBridge_JS.m */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7D3CF69A73DE78956EFC79B01CED3EA /* WJwebviewjavascriptbridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1D72DA8117FA2A48A4BE4FD09CF9F9 /* WJwebviewjavascriptbridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C36217AA2DF62535C9EF694E78E8554C /* webView_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84228BDDD223460FAE330B27F8093B79 /* webView_menu@2x.png */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CBD8C840EEE0631515356D73B04E93B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64771681F7D670ED1FB8E24BFB017797 /* Foundation.framework */; };
 		CF0EEE85EE928536C1CB680F6CAE0AB5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CB4A962A2069F818686E987676225B /* MapKit.framework */; };
 		D66D2193AD03484D4C21F7C4D2B7A84F /* Pods-WJwebviewjavascriptbridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7175172FB91F1BECF57886BAA3A1191 /* Pods-WJwebviewjavascriptbridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6D5336DC1DFAABC8522C7A1E691C010 /* webView_share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5D1A3B8E05CEBC98D28D83369D83FD /* webView_share@3x.png */; };
+		D7195D9A01B66E4B4C90C2B841610DC2 /* webView_menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75937D68131C9EE03932F7881E24C309 /* webView_menu@3x.png */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		DFB8F0B4236A0B003EDBC09EA7F3090F /* Pods-WJwebviewjavascriptbridge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F40E1BB37A93A933D3C320885F605B0 /* Pods-WJwebviewjavascriptbridge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA9566E92FD20F82D46E12FA8C24A39B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64771681F7D670ED1FB8E24BFB017797 /* Foundation.framework */; };
+		F63C63DE029001870067D36929A4A4B2 /* WKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4AC65A5730727ADD2494D41ED1C838 /* WKWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8E0328A5E8B9B89C18AC9FAB28C7A50 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A05CB3348BE8462DAA2BEEF608ED85D /* WebViewJavascriptBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +66,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
 			remoteInfo = FBSnapshotTestCase;
+		};
+		5B832EAB03E6626CA17C5F65545DF7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41BA56A748B179FEFC6E94E6042F84AF;
+			remoteInfo = "WJwebviewjavascriptbridge-WJwebviewjavascriptbridge";
 		};
 		EF16733E2A6AC51684632CA9C096BE4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -63,59 +88,78 @@
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		06C80AB6E98F464F92174526BE698C64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		11B0EFF8810E9D99FAD1920219C33CB7 /* WJwebviewjavascriptbridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJwebviewjavascriptbridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1C759E08FF1E538F16865BE9641C25 /* ResourceBundle-WJwebviewjavascriptbridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WJwebviewjavascriptbridge-Info.plist"; sourceTree = "<group>"; };
+		0CAFE3FF9E57E649EE357CF4B4722694 /* WJwebviewjavascriptbridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WJwebviewjavascriptbridge.framework; path = WJwebviewjavascriptbridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E025CA10963EF89A978D913186F227C /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
 		123D962D63F9B49EFA68E5DF0D35C95D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		16BBD20FC2B25E407FB3DEAF459796F2 /* Pods-WJwebviewjavascriptbridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJwebviewjavascriptbridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		21A8630A726720C277E29DAA5BAFF709 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		2B85C6EF550D59C4EDF1F431CA483DCA /* Pods-WJwebviewjavascriptbridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJwebviewjavascriptbridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		2F1D72DA8117FA2A48A4BE4FD09CF9F9 /* WJwebviewjavascriptbridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJwebviewjavascriptbridge-umbrella.h"; sourceTree = "<group>"; };
+		2F4AC65A5730727ADD2494D41ED1C838 /* WKWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
 		308E19B18EF5B54F08883C275ED6377F /* Pods-WJwebviewjavascriptbridge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJwebviewjavascriptbridge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3935087224673A6155A06F94A6B8C3AD /* WJwebviewjavascriptbridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJwebviewjavascriptbridge-dummy.m"; sourceTree = "<group>"; };
+		329798C764577126072AA2297C8BD1F7 /* WJwebviewjavascriptbridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJwebviewjavascriptbridge.xcconfig; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		3E37A0EC644203441963E226CE28E759 /* webView_pop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webView_pop@3x.png"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		432AA053D6186CCF87B0156781BB8E22 /* WJwebviewjavascriptbridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WJwebviewjavascriptbridge.modulemap; sourceTree = "<group>"; };
 		4600F59E9F45A49F76547D73B4DF69A3 /* Pods-WJwebviewjavascriptbridge_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJwebviewjavascriptbridge_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		474ED8375B3871CDB1E4A00995E1361A /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51708D819AFA57F6683FBC210455265F /* webView_pop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webView_pop@2x.png"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		56EB4EF7C2E3C1BCD91169CD87E528F0 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5E332AE01B7FC72DA934D5A0A9D525A4 /* Pods-WJwebviewjavascriptbridge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJwebviewjavascriptbridge_Example-dummy.m"; sourceTree = "<group>"; };
+		61CA0F696067C8CBF5AD7BF30F11EB9C /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		61FDA32DF58DF1875B68687E24CB39A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64771681F7D670ED1FB8E24BFB017797 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		65CB4A962A2069F818686E987676225B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		6682F200B9A6519FC0125DA779610E9F /* Pods-WJwebviewjavascriptbridge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJwebviewjavascriptbridge_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6DB802E517369132D39BECD4E595006B /* Pods-WJwebviewjavascriptbridge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WJwebviewjavascriptbridge_Tests.modulemap"; sourceTree = "<group>"; };
+		6DB802E517369132D39BECD4E595006B /* Pods-WJwebviewjavascriptbridge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJwebviewjavascriptbridge_Tests.modulemap"; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F13A8844A7AC35B408AD7886DA2FF9F /* WJwebviewjavascriptbridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJwebviewjavascriptbridge-prefix.pch"; sourceTree = "<group>"; };
-		6F2C21F5A5A679DDE89D75F59C38813C /* Pods_WJwebviewjavascriptbridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJwebviewjavascriptbridge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		752C4FFA703C99DF8E06C66DE9A4DA9F /* Pods-WJwebviewjavascriptbridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WJwebviewjavascriptbridge_Example.modulemap"; sourceTree = "<group>"; };
+		752C4FFA703C99DF8E06C66DE9A4DA9F /* Pods-WJwebviewjavascriptbridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WJwebviewjavascriptbridge_Example.modulemap"; sourceTree = "<group>"; };
+		75937D68131C9EE03932F7881E24C309 /* webView_menu@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webView_menu@3x.png"; sourceTree = "<group>"; };
+		7A05CB3348BE8462DAA2BEEF608ED85D /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		7C157469A7F9D4C705CCB74F82A0CA24 /* WJwebviewjavascriptbridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WJwebviewjavascriptbridge.modulemap; sourceTree = "<group>"; };
 		7CF1D870D01010E061CDE2AC7F923293 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		804FB81B91C6EF51250E9EAAC93A2C0C /* Pods_WJwebviewjavascriptbridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJwebviewjavascriptbridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		84228BDDD223460FAE330B27F8093B79 /* webView_menu@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webView_menu@2x.png"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8774AECB3903E604E2F7FCAA78219711 /* Pods-WJwebviewjavascriptbridge_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJwebviewjavascriptbridge_Tests-resources.sh"; sourceTree = "<group>"; };
+		8ABACE18E288F57078D68186222C28B8 /* Pods_WJwebviewjavascriptbridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJwebviewjavascriptbridge_Example.framework; path = "Pods-WJwebviewjavascriptbridge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE940AE7251621D8D6A66616206EFF5 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F40E1BB37A93A933D3C320885F605B0 /* Pods-WJwebviewjavascriptbridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJwebviewjavascriptbridge_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A35FE20B4C083D291F212E0AEE9BC3 /* WJwebviewjavascriptbridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJwebviewjavascriptbridge-prefix.pch"; sourceTree = "<group>"; };
 		A1B1AC9989C180694EE4BE3A3C971C27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A48720C79055730DFC46631363472818 /* Pods-WJwebviewjavascriptbridge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJwebviewjavascriptbridge_Tests-dummy.m"; sourceTree = "<group>"; };
 		ADCD73D8193FC126FB5D0ADC238ACF71 /* Pods-WJwebviewjavascriptbridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJwebviewjavascriptbridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B67BB83D52B152CD99E1872B36C8F072 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B185698322F820A7CD545560993A7DA2 /* WKWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		B778F381E9D5C9BB2C76A03800FF7A38 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BC2190F921B365F707108CCFFA3E06E8 /* Pods-WJwebviewjavascriptbridge_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJwebviewjavascriptbridge_Example-resources.sh"; sourceTree = "<group>"; };
-		BF8214261024DB950C208FE973F7EBD8 /* WJwebviewjavascriptbridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJwebviewjavascriptbridge.xcconfig; sourceTree = "<group>"; };
+		BF57296C355F6FE02458C459F7A41C5B /* WJwebviewjavascriptbridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJwebviewjavascriptbridge-dummy.m"; sourceTree = "<group>"; };
 		C7175172FB91F1BECF57886BAA3A1191 /* Pods-WJwebviewjavascriptbridge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJwebviewjavascriptbridge_Example-umbrella.h"; sourceTree = "<group>"; };
+		CAE9527BF437B8F1B68BE3E14B628C91 /* webView_share@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webView_share@2x.png"; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		CEC78A2C895E80B8EC1BEF1D8791BC19 /* Pods-WJwebviewjavascriptbridge_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJwebviewjavascriptbridge_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CF27E3F8B020FAFFC3FBF259A0191F3F /* WJwebviewjavascriptbridge.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WJwebviewjavascriptbridge.bundle; path = WJwebviewjavascriptbridge.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DD7B1C10B4FEB7D041998AC96E6EC0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		D783C3B3C5DEB596807735440F2DF52F /* Pods_WJwebviewjavascriptbridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WJwebviewjavascriptbridge_Tests.framework; path = "Pods-WJwebviewjavascriptbridge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		DEDAD454C7C924CF0947DB51AB89BBFC /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E66E2760D981F3458CC781B6B7828CFB /* WJwebviewjavascriptbridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJwebviewjavascriptbridge-umbrella.h"; sourceTree = "<group>"; };
+		ED9DAE1C8923E385EA62A6DE84485100 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
 		F32067F7FBEA20CA0BBD892C42645E66 /* Pods-WJwebviewjavascriptbridge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJwebviewjavascriptbridge_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F52DA3DC9FBB165651FC27C7B68BE007 /* Pods-WJwebviewjavascriptbridge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJwebviewjavascriptbridge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F9F8B91838D9E2DE42AF01ABF5DC7B18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FC5D1A3B8E05CEBC98D28D83369D83FD /* webView_share@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webView_share@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +171,13 @@
 				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
 				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
 				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3602098F9C464B73F7292314C0619E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,15 +239,8 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		23C332E8AAE6BC8AF1B014AA9BC5F012 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				39B735B712BD6C55B62F56FA1E28C565 /* WJwebviewjavascriptbridge */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2407C9A04EF80BBCD241A79DCC1A971D /* Pods-WJwebviewjavascriptbridge_Tests */ = {
@@ -217,28 +261,23 @@
 			path = "Target Support Files/Pods-WJwebviewjavascriptbridge_Tests";
 			sourceTree = "<group>";
 		};
-		39B735B712BD6C55B62F56FA1E28C565 /* WJwebviewjavascriptbridge */ = {
+		4974BA2F8635A84C122CDC05D386B8B9 /* WJwebviewjavascriptbridge */ = {
 			isa = PBXGroup;
 			children = (
-				69092CFD8DF270C973D80D7679BBA0DF /* Support Files */,
-				ED991D9647472CBEE271E798BDB1EA46 /* WJwebviewjavascriptbridge */,
+				A5A31A1235220F6FE3D0C580E6437CCE /* Resources */,
+				8A9D9FC0E3E4104A8C311E66CE4FEC2E /* Support Files */,
+				B374AF40E927E06CBDA38D8B9FF8C46C /* WJwebviewjavascriptbridge */,
 			);
 			name = WJwebviewjavascriptbridge;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		69092CFD8DF270C973D80D7679BBA0DF /* Support Files */ = {
+		6130A24FD7C6A111FCBEBFA05AA79FDB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B67BB83D52B152CD99E1872B36C8F072 /* Info.plist */,
-				432AA053D6186CCF87B0156781BB8E22 /* WJwebviewjavascriptbridge.modulemap */,
-				BF8214261024DB950C208FE973F7EBD8 /* WJwebviewjavascriptbridge.xcconfig */,
-				3935087224673A6155A06F94A6B8C3AD /* WJwebviewjavascriptbridge-dummy.m */,
-				6F13A8844A7AC35B408AD7886DA2FF9F /* WJwebviewjavascriptbridge-prefix.pch */,
-				2F1D72DA8117FA2A48A4BE4FD09CF9F9 /* WJwebviewjavascriptbridge-umbrella.h */,
+				4974BA2F8635A84C122CDC05D386B8B9 /* WJwebviewjavascriptbridge */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WJwebviewjavascriptbridge";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		715BB7F13BC64CC93FD8466557F7252E /* Pods-WJwebviewjavascriptbridge_Example */ = {
@@ -263,10 +302,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				23C332E8AAE6BC8AF1B014AA9BC5F012 /* Development Pods */,
+				6130A24FD7C6A111FCBEBFA05AA79FDB /* Development Pods */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				C325EDB6C47E869F8DEC6A6C75030FE4 /* Products */,
+				85FA246807D3938658E45424AE93318B /* Products */,
 				8036B8F71024482F39283E3FE681CA75 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -280,12 +319,71 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		85FA246807D3938658E45424AE93318B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BE940AE7251621D8D6A66616206EFF5 /* FBSnapshotTestCase.framework */,
+				8ABACE18E288F57078D68186222C28B8 /* Pods_WJwebviewjavascriptbridge_Example.framework */,
+				D783C3B3C5DEB596807735440F2DF52F /* Pods_WJwebviewjavascriptbridge_Tests.framework */,
+				CF27E3F8B020FAFFC3FBF259A0191F3F /* WJwebviewjavascriptbridge.bundle */,
+				0CAFE3FF9E57E649EE357CF4B4722694 /* WJwebviewjavascriptbridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A9D9FC0E3E4104A8C311E66CE4FEC2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61FDA32DF58DF1875B68687E24CB39A1 /* Info.plist */,
+				0B1C759E08FF1E538F16865BE9641C25 /* ResourceBundle-WJwebviewjavascriptbridge-Info.plist */,
+				7C157469A7F9D4C705CCB74F82A0CA24 /* WJwebviewjavascriptbridge.modulemap */,
+				329798C764577126072AA2297C8BD1F7 /* WJwebviewjavascriptbridge.xcconfig */,
+				BF57296C355F6FE02458C459F7A41C5B /* WJwebviewjavascriptbridge-dummy.m */,
+				A0A35FE20B4C083D291F212E0AEE9BC3 /* WJwebviewjavascriptbridge-prefix.pch */,
+				E66E2760D981F3458CC781B6B7828CFB /* WJwebviewjavascriptbridge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJwebviewjavascriptbridge";
+			sourceTree = "<group>";
+		};
+		8EB30A7093A71011699D9AA5C9C63A57 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				2F4AC65A5730727ADD2494D41ED1C838 /* WKWebViewController.h */,
+				B185698322F820A7CD545560993A7DA2 /* WKWebViewController.m */,
+			);
+			name = public;
+			path = public;
+			sourceTree = "<group>";
+		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A139D1A2B86AFB8171208518CA39F0FB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				84228BDDD223460FAE330B27F8093B79 /* webView_menu@2x.png */,
+				75937D68131C9EE03932F7881E24C309 /* webView_menu@3x.png */,
+				51708D819AFA57F6683FBC210455265F /* webView_pop@2x.png */,
+				3E37A0EC644203441963E226CE28E759 /* webView_pop@3x.png */,
+				CAE9527BF437B8F1B68BE3E14B628C91 /* webView_share@2x.png */,
+				FC5D1A3B8E05CEBC98D28D83369D83FD /* webView_share@3x.png */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A5A31A1235220F6FE3D0C580E6437CCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3576B1612CFF3933CDD40151707A9D6 /* WJwebviewjavascriptbridge */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A83EDBD24C93EB11E81BA634CAA97A40 /* iOS */ = {
@@ -300,22 +398,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C325EDB6C47E869F8DEC6A6C75030FE4 /* Products */ = {
+		B374AF40E927E06CBDA38D8B9FF8C46C /* WJwebviewjavascriptbridge */ = {
 			isa = PBXGroup;
 			children = (
-				474ED8375B3871CDB1E4A00995E1361A /* FBSnapshotTestCase.framework */,
-				804FB81B91C6EF51250E9EAAC93A2C0C /* Pods_WJwebviewjavascriptbridge_Example.framework */,
-				6F2C21F5A5A679DDE89D75F59C38813C /* Pods_WJwebviewjavascriptbridge_Tests.framework */,
-				11B0EFF8810E9D99FAD1920219C33CB7 /* WJwebviewjavascriptbridge.framework */,
+				C4D5137A0F75DA481B554725F439A9E4 /* Classes */,
 			);
-			name = Products;
+			name = WJwebviewjavascriptbridge;
+			path = WJwebviewjavascriptbridge;
 			sourceTree = "<group>";
 		};
-		ED991D9647472CBEE271E798BDB1EA46 /* WJwebviewjavascriptbridge */ = {
+		C3576B1612CFF3933CDD40151707A9D6 /* WJwebviewjavascriptbridge */ = {
 			isa = PBXGroup;
 			children = (
+				A139D1A2B86AFB8171208518CA39F0FB /* Assets */,
 			);
+			name = WJwebviewjavascriptbridge;
 			path = WJwebviewjavascriptbridge;
+			sourceTree = "<group>";
+		};
+		C4D5137A0F75DA481B554725F439A9E4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD7B1C10B4FEB7D041998AC96E6EC0 /* ReplaceMe.m */,
+				B778F381E9D5C9BB2C76A03800FF7A38 /* WebViewJavascriptBridge.h */,
+				7A05CB3348BE8462DAA2BEEF608ED85D /* WebViewJavascriptBridge.m */,
+				61CA0F696067C8CBF5AD7BF30F11EB9C /* WebViewJavascriptBridge_JS.h */,
+				DEDAD454C7C924CF0947DB51AB89BBFC /* WebViewJavascriptBridge_JS.m */,
+				56EB4EF7C2E3C1BCD91169CD87E528F0 /* WebViewJavascriptBridgeBase.h */,
+				0E025CA10963EF89A978D913186F227C /* WebViewJavascriptBridgeBase.m */,
+				ED9DAE1C8923E385EA62A6DE84485100 /* WKWebViewJavascriptBridge.h */,
+				21A8630A726720C277E29DAA5BAFF709 /* WKWebViewJavascriptBridge.m */,
+				8EB30A7093A71011699D9AA5C9C63A57 /* public */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -358,14 +474,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6323A061C3B9E0E88F30BE8CE97B84FE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C7D3CF69A73DE78956EFC79B01CED3EA /* WJwebviewjavascriptbridge-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,6 +497,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C74ABCE6A4680301EF5B4BF09FB1A969 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749A0D294F6963D91B57A31013D5C081 /* WebViewJavascriptBridge.h in Headers */,
+				BBB838F0FEBE851D3969203D477C5D74 /* WebViewJavascriptBridge_JS.h in Headers */,
+				49A5F2A596A3264C396ED0B96E37AA24 /* WebViewJavascriptBridgeBase.h in Headers */,
+				806E20FE21402E35CF497A7DCFEA10D0 /* WJwebviewjavascriptbridge-umbrella.h in Headers */,
+				F63C63DE029001870067D36929A4A4B2 /* WKWebViewController.h in Headers */,
+				63AE32C0D8D6888BDD2D2F442DFDB2BB /* WKWebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -396,17 +517,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB2A1D0306F537929D188B0C7613125 /* Build configuration list for PBXNativeTarget "WJwebviewjavascriptbridge" */;
 			buildPhases = (
-				E9DFD54BDE852BF36F35F5D68EE1AC39 /* Sources */,
+				5AB0EED2EECA6624B5E2C40F1FA168A3 /* Sources */,
 				CB49E798A4303E34EA764B87337E813B /* Frameworks */,
-				6323A061C3B9E0E88F30BE8CE97B84FE /* Headers */,
+				B026C4713EDBB5A52ED3DC637F5DA6D9 /* Resources */,
+				C74ABCE6A4680301EF5B4BF09FB1A969 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1D0EFFF35181F14976FE5D1CD2AAA540 /* PBXTargetDependency */,
 			);
 			name = WJwebviewjavascriptbridge;
 			productName = WJwebviewjavascriptbridge;
-			productReference = 11B0EFF8810E9D99FAD1920219C33CB7 /* WJwebviewjavascriptbridge.framework */;
+			productReference = 0CAFE3FF9E57E649EE357CF4B4722694 /* WJwebviewjavascriptbridge.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1A73F2A3D04BC60BFE7C7DEA20DD4697 /* Pods-WJwebviewjavascriptbridge_Example */ = {
@@ -424,7 +547,7 @@
 			);
 			name = "Pods-WJwebviewjavascriptbridge_Example";
 			productName = "Pods-WJwebviewjavascriptbridge_Example";
-			productReference = 804FB81B91C6EF51250E9EAAC93A2C0C /* Pods_WJwebviewjavascriptbridge_Example.framework */;
+			productReference = 8ABACE18E288F57078D68186222C28B8 /* Pods_WJwebviewjavascriptbridge_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
@@ -441,8 +564,25 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 474ED8375B3871CDB1E4A00995E1361A /* FBSnapshotTestCase.framework */;
+			productReference = 8BE940AE7251621D8D6A66616206EFF5 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		41BA56A748B179FEFC6E94E6042F84AF /* WJwebviewjavascriptbridge-WJwebviewjavascriptbridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E500A5EFF4666CC7907D56C7FABF7B0 /* Build configuration list for PBXNativeTarget "WJwebviewjavascriptbridge-WJwebviewjavascriptbridge" */;
+			buildPhases = (
+				D47A290C8B93120577BBE5D7A65EDE55 /* Sources */,
+				3602098F9C464B73F7292314C0619E95 /* Frameworks */,
+				64391A84896BE0934DE3CCBF0F192D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WJwebviewjavascriptbridge-WJwebviewjavascriptbridge";
+			productName = "WJwebviewjavascriptbridge-WJwebviewjavascriptbridge";
+			productReference = CF27E3F8B020FAFFC3FBF259A0191F3F /* WJwebviewjavascriptbridge.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		5D70161B4C230BFC22789AD25D362420 /* Pods-WJwebviewjavascriptbridge_Tests */ = {
 			isa = PBXNativeTarget;
@@ -459,7 +599,7 @@
 			);
 			name = "Pods-WJwebviewjavascriptbridge_Tests";
 			productName = "Pods-WJwebviewjavascriptbridge_Tests";
-			productReference = 6F2C21F5A5A679DDE89D75F59C38813C /* Pods_WJwebviewjavascriptbridge_Tests.framework */;
+			productReference = D783C3B3C5DEB596807735440F2DF52F /* Pods_WJwebviewjavascriptbridge_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -479,7 +619,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C325EDB6C47E869F8DEC6A6C75030FE4 /* Products */;
+			productRefGroup = 85FA246807D3938658E45424AE93318B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -487,16 +627,62 @@
 				1A73F2A3D04BC60BFE7C7DEA20DD4697 /* Pods-WJwebviewjavascriptbridge_Example */,
 				5D70161B4C230BFC22789AD25D362420 /* Pods-WJwebviewjavascriptbridge_Tests */,
 				0AEBACE4CF4B8AE65C7F2E665D86C736 /* WJwebviewjavascriptbridge */,
+				41BA56A748B179FEFC6E94E6042F84AF /* WJwebviewjavascriptbridge-WJwebviewjavascriptbridge */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		64391A84896BE0934DE3CCBF0F192D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36217AA2DF62535C9EF694E78E8554C /* webView_menu@2x.png in Resources */,
+				D7195D9A01B66E4B4C90C2B841610DC2 /* webView_menu@3x.png in Resources */,
+				A2E2DF21C10674A9AE6E6866CC09410D /* webView_pop@2x.png in Resources */,
+				0493FCCCC346B620AC23450404097BD1 /* webView_pop@3x.png in Resources */,
+				A50285AD03E9BCACF36889359E69BDA4 /* webView_share@2x.png in Resources */,
+				D6D5336DC1DFAABC8522C7A1E691C010 /* webView_share@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B026C4713EDBB5A52ED3DC637F5DA6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FFED60B481D8D0E156C366F9623DA9 /* WJwebviewjavascriptbridge.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		5AB0EED2EECA6624B5E2C40F1FA168A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEBBA7F7719B85856E9C48E9583852E /* ReplaceMe.m in Sources */,
+				F8E0328A5E8B9B89C18AC9FAB28C7A50 /* WebViewJavascriptBridge.m in Sources */,
+				BBD2E3113B8FC0065A4CEC22DBC238BD /* WebViewJavascriptBridge_JS.m in Sources */,
+				78CE86AED7BF8CF056B5E265070EAC6B /* WebViewJavascriptBridgeBase.m in Sources */,
+				32EF1515AAB61DAA3C523F5E6BBBA4B8 /* WJwebviewjavascriptbridge-dummy.m in Sources */,
+				1C5323AA499536B558B02D21DC6CC6C2 /* WKWebViewController.m in Sources */,
+				7C72EF7208D41D99644A0AA5B23AB661 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60335C8337C3546F93CD558A37F1E47A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D6E0E5AF13E32AE40F83CAF51C61109 /* Pods-WJwebviewjavascriptbridge_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47A290C8B93120577BBE5D7A65EDE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,17 +710,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9DFD54BDE852BF36F35F5D68EE1AC39 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5BE5650BA54139682BF6078AC9621B3 /* WJwebviewjavascriptbridge-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1D0EFFF35181F14976FE5D1CD2AAA540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WJwebviewjavascriptbridge-WJwebviewjavascriptbridge";
+			target = 41BA56A748B179FEFC6E94E6042F84AF /* WJwebviewjavascriptbridge-WJwebviewjavascriptbridge */;
+			targetProxy = 5B832EAB03E6626CA17C5F65545DF7C4 /* PBXContainerItemProxy */;
+		};
 		348ABC147158BD6808C27FD6095F2354 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
@@ -552,7 +736,7 @@
 /* Begin XCBuildConfiguration section */
 		001D56E821172D70EAD917B698C9B968 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF8214261024DB950C208FE973F7EBD8 /* WJwebviewjavascriptbridge.xcconfig */;
+			baseConfigurationReference = 329798C764577126072AA2297C8BD1F7 /* WJwebviewjavascriptbridge.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -581,6 +765,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		04D48406F2686859129C7A51AF38FF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329798C764577126072AA2297C8BD1F7 /* WJwebviewjavascriptbridge.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WJwebviewjavascriptbridge";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WJwebviewjavascriptbridge/ResourceBundle-WJwebviewjavascriptbridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WJwebviewjavascriptbridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -627,6 +828,23 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		40C09E872CD010861F5EAA74BBD088A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329798C764577126072AA2297C8BD1F7 /* WJwebviewjavascriptbridge.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WJwebviewjavascriptbridge";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WJwebviewjavascriptbridge/ResourceBundle-WJwebviewjavascriptbridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WJwebviewjavascriptbridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -748,7 +966,7 @@
 		};
 		A147A4944B295723071E20435B2325FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF8214261024DB950C208FE973F7EBD8 /* WJwebviewjavascriptbridge.xcconfig */;
+			baseConfigurationReference = 329798C764577126072AA2297C8BD1F7 /* WJwebviewjavascriptbridge.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -932,6 +1150,15 @@
 			buildConfigurations = (
 				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
 				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E500A5EFF4666CC7907D56C7FABF7B0 /* Build configuration list for PBXNativeTarget "WJwebviewjavascriptbridge-WJwebviewjavascriptbridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C09E872CD010861F5EAA74BBD088A2 /* Debug */,
+				04D48406F2686859129C7A51AF38FF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

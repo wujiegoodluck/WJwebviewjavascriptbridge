@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  WJwebviewjavascriptbridge: 11a84d8bb8c4abd45fb93575e0955fa3eabbe905
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WJwebviewjavascriptbridge: b0f39a72f56d6208c67e17f377fa4f6574a4b26b
 
 PODFILE CHECKSUM: 0d8234515a7e2c260fd9f070cda402f6632cedd7
 

@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>WJwebviewjavascriptbridge-WJwebviewjavascriptbridge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>WJwebviewjavascriptbridge.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>34CD2E3428AB802BACA62286FF5074B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41BA56A748B179FEFC6E94E6042F84AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

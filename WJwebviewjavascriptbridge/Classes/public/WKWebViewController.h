@@ -26,16 +26,20 @@ typedef NS_ENUM (NSInteger, webViewControllerType) {
 };
 
 
+
 @protocol WKWebViewControllerDelegate <NSObject>
 
 -(void)goToNativeLogin;
 
--(void)webView:(WKWebView *)webview navigationFailedWithError:(NSError *)error;
+-(void)webView:(WKWebView *_Nonnull)webview navigationFailedWithError:(NSError *_Nonnull)error;
 
 
 @end
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface WKWebViewController : UIViewController<WKNavigationDelegate>
+
 
 /// 导航栏是否显示
 @property (nonatomic, assign) BOOL navigationBarHidden;
@@ -61,9 +65,9 @@ typedef NS_ENUM (NSInteger, webViewControllerType) {
  *
  *  @return
  */
-- (instancetype)initWithTitle:(nullable NSString *)title
-                    urlString:(NSString *)urlString
-                  paramenters:(nullable NSDictionary *)paramenters
+- (instancetype)initWithTitle:( NSString *_Nullable)title
+                    urlString:(NSString *_Nonnull)urlString
+                  paramenters:( NSDictionary *_Nullable)paramenters
                     needLogin:(BOOL)needLogin;
 
 
@@ -75,8 +79,8 @@ typedef NS_ENUM (NSInteger, webViewControllerType) {
  *
  *  @return
  */
-- (instancetype)initWithTitle:(nullable NSString *)title
-                   HTMLString:(NSString *)HTMLString;
+- (instancetype)initWithTitle:(NSString * _Nullable)title
+                   HTMLString:(NSString *_Nullable)HTMLString;
 
 
 /**
@@ -92,4 +96,7 @@ typedef NS_ENUM (NSInteger, webViewControllerType) {
 - (void)closeWebPage;
 
 
+
 @end
+
+NS_ASSUME_NONNULL_END

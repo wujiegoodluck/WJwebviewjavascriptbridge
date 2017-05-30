@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "ExampleUIWebViewController.h"
-#import "ExampleWKWebViewController.h"
+#import "WKWebViewController.h"
 
 FOUNDATION_EXPORT double WJwebviewjavascriptbridgeVersionNumber;
 FOUNDATION_EXPORT const unsigned char WJwebviewjavascriptbridgeVersionString[];

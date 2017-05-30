@@ -38,9 +38,9 @@
 
 @implementation WKWebViewController
 
-- (instancetype)initWithTitle:(nullable NSString *)title
+- (instancetype)initWithTitle:( NSString *_Nullable)title
                     urlString:(NSString *)urlString
-                  paramenters:(nullable NSDictionary *)paramenters
+                  paramenters:( NSDictionary *_Nullable)paramenters
                     needLogin:(BOOL)needLogin {
     if (self = [super init]) {
         _externalTitle = title;
@@ -51,7 +51,7 @@
     return self;
 }
 
-- (instancetype)initWithTitle:(nullable NSString *)title
+- (instancetype)initWithTitle:( NSString *_Nullable)title
                    HTMLString:(NSString *)HTMLString {
     if (self = [super init]) {
         _externalTitle = title;
