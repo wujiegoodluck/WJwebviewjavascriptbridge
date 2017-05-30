@@ -19,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>WebViewJavascriptBridge.xcscheme</key>
+		<key>WJwebviewjavascriptbridge.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0AEBACE4CF4B8AE65C7F2E665D86C736</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1A73F2A3D04BC60BFE7C7DEA20DD4697</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>34CD2E3428AB802BACA62286FF5074B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>52ED207B3C635E82FB5404370170AD75</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>5D70161B4C230BFC22789AD25D362420</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>90E7AB65A5EBE24B6485D4987329A156</key>
 		<dict>
 			<key>primary</key>
 			<true/>

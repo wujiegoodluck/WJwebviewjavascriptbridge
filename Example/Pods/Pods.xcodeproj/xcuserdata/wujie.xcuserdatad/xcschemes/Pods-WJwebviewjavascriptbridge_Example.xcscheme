@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "52ED207B3C635E82FB5404370170AD75"
+               BlueprintIdentifier = "1A73F2A3D04BC60BFE7C7DEA20DD4697"
                BuildableName = "Pods_WJwebviewjavascriptbridge_Example.framework"
                BlueprintName = "Pods-WJwebviewjavascriptbridge_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "52ED207B3C635E82FB5404370170AD75"
+            BlueprintIdentifier = "1A73F2A3D04BC60BFE7C7DEA20DD4697"
             BuildableName = "Pods_WJwebviewjavascriptbridge_Example.framework"
             BlueprintName = "Pods-WJwebviewjavascriptbridge_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import "WKWebViewController.h"
 
-@interface WJwebviewjavascriptbridgeViewController : UIViewController
+@interface WJwebviewjavascriptbridgeViewController : WKWebViewController
 
 @end

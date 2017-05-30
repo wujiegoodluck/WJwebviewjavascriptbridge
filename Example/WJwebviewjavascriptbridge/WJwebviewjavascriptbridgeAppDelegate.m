@@ -7,12 +7,28 @@
 //
 
 #import "WJwebviewjavascriptbridgeAppDelegate.h"
+#import "WJwebviewjavascriptbridgeViewController.h"
+
+@interface WJwebviewjavascriptbridgeAppDelegate()
+
+@property (strong, nonatomic) UINavigationController *navVC;
+@property (strong, nonatomic) WJwebviewjavascriptbridgeViewController  *VC;
+
+@end
 
 @implementation WJwebviewjavascriptbridgeAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];//初始化window
+    self.window.backgroundColor = [UIColor whiteColor];//设置window的背景色
+    [self.window makeKeyAndVisible];//把window设置为主视图
+    self.VC=[[WJwebviewjavascriptbridgeViewController alloc] initWithTitle:@"自定义标题" urlString:@"https://wap.baidu.com" paramenters:nil needLogin:NO];
+    self.navVC= [[UINavigationController  alloc]initWithRootViewController:self.VC];
+    [self.window setRootViewController:self.navVC];//设置window的根视图控制器
+    
     return YES;
 }
 

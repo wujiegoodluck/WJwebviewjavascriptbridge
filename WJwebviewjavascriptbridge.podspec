@@ -30,14 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'WJwebviewjavascriptbridge/*.{h,m}'
+  s.source_files = 'WJwebviewjavascriptbridge/Classes/**/*'
   
   # s.resource_bundles = {
   #   'WJwebviewjavascriptbridge' => ['WJwebviewjavascriptbridge/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'WJwebviewjavascriptbridge/Classes/public/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'WebViewJavascriptBridge', '~> 6.0.2'
 
 end

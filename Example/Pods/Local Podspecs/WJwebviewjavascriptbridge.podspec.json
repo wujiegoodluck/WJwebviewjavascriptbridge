@@ -18,13 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "WJwebviewjavascriptbridge/Classes/**/*",
+  "public_header_files": "WJwebviewjavascriptbridge/Classes/public/**/*.h",
   "frameworks": [
     "UIKit",
     "MapKit"
-  ],
-  "dependencies": {
-    "WebViewJavascriptBridge": [
-      "~> 6.0.2"
-    ]
-  }
+  ]
 }
