@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'WJwebviewjavascriptbridge/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WJwebviewjavascriptbridge' => ['WJwebviewjavascriptbridge/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'WJwebviewjavascriptbridge' => ['WJwebviewjavascriptbridge/Assets/*.png']
+   }
 
    s.public_header_files = 'WJwebviewjavascriptbridge/Classes/public/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
