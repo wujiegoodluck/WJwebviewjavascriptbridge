@@ -1,0 +1,6 @@
+framework module WJwebviewjavascriptbridge {
+  umbrella header "WJwebviewjavascriptbridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

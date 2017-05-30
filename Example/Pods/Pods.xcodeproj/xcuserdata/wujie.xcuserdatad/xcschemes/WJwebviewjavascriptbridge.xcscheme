@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '90E7AB65A5EBE24B6485D4987329A156'
-               BlueprintName = 'WebViewJavascriptBridge'
+               BlueprintIdentifier = '0AEBACE4CF4B8AE65C7F2E665D86C736'
+               BlueprintName = 'WJwebviewjavascriptbridge'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'WebViewJavascriptBridge.framework'>
+               BuildableName = 'WJwebviewjavascriptbridge.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
