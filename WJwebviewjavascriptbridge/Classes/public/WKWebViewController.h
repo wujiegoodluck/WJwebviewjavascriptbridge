@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
-
+#import "WKWebViewJavascriptBridge.h"
 /// 导航栏标题样式
 typedef NS_ENUM (NSInteger, webNavigationStyle) {
     /// 文字标题
@@ -50,6 +50,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) BOOL canGoBack;//默认YES
 
+@property(nonatomic, strong) WKWebViewJavascriptBridge* bridge;
+
+@property (nonatomic, strong) WKWebView * webView;/// webView
+
 @property (nonatomic, assign) webNavigationStyle navigationStyle;/// 导航栏Title样式默认文字标题
 
 @property (nonatomic, weak)id <WKWebViewControllerDelegate> delegate;
@@ -63,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param paramenters 网页需要的参数
  *  @param needLogin   网页是否需要登录
  *
- *  @return
+ *
  */
 - (instancetype)initWithTitle:( NSString *_Nullable)title
                     urlString:(NSString *_Nonnull)urlString
@@ -77,7 +81,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param title       控制器的标题 为空则取JS的titile
  *  @param HTMLString  需要展示的htmlString
  *
- *  @return
+ *
  */
 - (instancetype)initWithTitle:(NSString * _Nullable)title
                    HTMLString:(NSString *_Nullable)HTMLString;

@@ -7,7 +7,7 @@
 //
 
 #import "WKWebViewController.h"
-#import "WebViewJavascriptBridge.h"
+#import "WKWebViewJavascriptBridge.h"
 
 
 
@@ -15,12 +15,7 @@
 
 @interface WKWebViewController ()
 
-
-@property (nonatomic, strong) WKWebView * webView;/// webView
-
 @property (nonatomic, strong) UIProgressView * progressView;/// 进度条
-
-@property(nonatomic, strong) WebViewJavascriptBridge* bridge;
 
 @property(nonatomic, copy) NSString *urlString;
 
@@ -110,8 +105,8 @@
     
     
     [self  addKVOObserver];
-    [WebViewJavascriptBridge enableLogging];
-    self.bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView];
+    [WKWebViewJavascriptBridge enableLogging];
+    self.bridge = [WKWebViewJavascriptBridge bridgeForWebView:self.webView];
     [self.bridge setWebViewDelegate:self];
 
     [self startRequest];
@@ -184,24 +179,12 @@
     }
     [self.navigationController popViewControllerAnimated:YES];
 }
-
-
-
+#pragma mark - KVO Observing
 - (void)addKVOObserver {
     [self.webView addObserver:self forKeyPath:@"canGoBack" options:NSKeyValueObservingOptionNew context:nil];
     [self.webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
     [self.webView addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew context:nil];
 }
-#pragma mark - dealloc
-
-- (void)dealloc {
-    [_webView removeObserver:self forKeyPath:@"title"];
-    [_webView removeObserver:self forKeyPath:@"canGoBack"];
-    [_webView removeObserver:self forKeyPath:@"estimatedProgress"];
-}
-
-#pragma mark - KVO Observing
-
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary <NSString *, id> *)change context:(void *)context {
     if ([@"estimatedProgress" isEqualToString:keyPath]) {
         [self updateViewWithProgress];
@@ -213,6 +196,15 @@
         [self updateViewWithWebViewTitle];
     }
 }
+
+#pragma mark - dealloc
+
+- (void)dealloc {
+    [_webView removeObserver:self forKeyPath:@"title"];
+    [_webView removeObserver:self forKeyPath:@"canGoBack"];
+    [_webView removeObserver:self forKeyPath:@"estimatedProgress"];
+}
+
 
 #pragma mark - update view with KVO
 
