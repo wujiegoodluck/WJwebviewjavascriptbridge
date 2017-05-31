@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
-#import "WKWebViewJavascriptBridge.h"
+
+@class WKWebViewJavascriptBridge;
+
 /// 导航栏标题样式
 typedef NS_ENUM (NSInteger, webNavigationStyle) {
     /// 文字标题
