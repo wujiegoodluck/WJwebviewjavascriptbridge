@@ -34,8 +34,8 @@
 		F42829EF1EDD3AC8005688E8 /* webView_pop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42829E91EDD3AC8005688E8 /* webView_pop@3x.png */; };
 		F42829F01EDD3AC8005688E8 /* webView_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42829EA1EDD3AC8005688E8 /* webView_share@2x.png */; };
 		F42829F11EDD3AC8005688E8 /* webView_share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F42829EB1EDD3AC8005688E8 /* webView_share@3x.png */; };
-		F42829F51EDD40D3005688E8 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42829F41EDD40D3005688E8 /* WKWebViewController.m */; };
 		F42829F71EDE52F1005688E8 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = F42829F61EDE52F1005688E8 /* ExampleApp.html */; };
+		F42829FA1EDE91EA005688E8 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42829F91EDE91EA005688E8 /* WKWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,9 +93,9 @@
 		F42829E91EDD3AC8005688E8 /* webView_pop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "webView_pop@3x.png"; path = "../../WJwebviewjavascriptbridge/Assets/webView_pop@3x.png"; sourceTree = "<group>"; };
 		F42829EA1EDD3AC8005688E8 /* webView_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "webView_share@2x.png"; path = "../../WJwebviewjavascriptbridge/Assets/webView_share@2x.png"; sourceTree = "<group>"; };
 		F42829EB1EDD3AC8005688E8 /* webView_share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "webView_share@3x.png"; path = "../../WJwebviewjavascriptbridge/Assets/webView_share@3x.png"; sourceTree = "<group>"; };
-		F42829F31EDD40D3005688E8 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKWebViewController.h; path = ../../WJwebviewjavascriptbridge/Classes/public/WKWebViewController.h; sourceTree = "<group>"; };
-		F42829F41EDD40D3005688E8 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKWebViewController.m; path = ../../WJwebviewjavascriptbridge/Classes/public/WKWebViewController.m; sourceTree = "<group>"; };
 		F42829F61EDE52F1005688E8 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		F42829F81EDE91EA005688E8 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKWebViewController.h; path = ../../WJwebviewjavascriptbridge/Classes/WKWebViewController.h; sourceTree = "<group>"; };
+		F42829F91EDE91EA005688E8 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKWebViewController.m; path = ../../WJwebviewjavascriptbridge/Classes/WKWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,8 +231,8 @@
 		F42829E51EDD19E3005688E8 /* WJwebviewjavascriptbridge */ = {
 			isa = PBXGroup;
 			children = (
-				F42829F31EDD40D3005688E8 /* WKWebViewController.h */,
-				F42829F41EDD40D3005688E8 /* WKWebViewController.m */,
+				F42829F81EDE91EA005688E8 /* WKWebViewController.h */,
+				F42829F91EDE91EA005688E8 /* WKWebViewController.m */,
 				F42829D51EDD19DC005688E8 /* WebViewJavascriptBridge_JS.h */,
 				F42829D61EDD19DC005688E8 /* WebViewJavascriptBridge_JS.m */,
 				F42829D71EDD19DC005688E8 /* WebViewJavascriptBridge.h */,
@@ -470,7 +470,7 @@
 				F42829E21EDD19DC005688E8 /* WebViewJavascriptBridgeBase.m in Sources */,
 				F42829E41EDD19DC005688E8 /* WKWebViewJavascriptBridge.m in Sources */,
 				F42829E01EDD19DC005688E8 /* WebViewJavascriptBridge_JS.m in Sources */,
-				F42829F51EDD40D3005688E8 /* WKWebViewController.m in Sources */,
+				F42829FA1EDE91EA005688E8 /* WKWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
