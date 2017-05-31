@@ -22,7 +22,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
@@ -33,6 +33,38 @@
             endingLineNumber = "130"
             landmarkName = "-startRequest"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewController startRequest]"
+                  moduleName = "WJwebviewjavascriptbridge_Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
+                  timestampString = "517903121.507665"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewController startRequest]"
+                  moduleName = "WJwebviewjavascriptbridge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
+                  timestampString = "517903121.62111"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -49,6 +81,38 @@
             endingLineNumber = "147"
             landmarkName = "-requestFromURL"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewController requestFromURL]"
+                  moduleName = "WJwebviewjavascriptbridge_Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
+                  timestampString = "517903121.513066"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "278">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewController requestFromURL]"
+                  moduleName = "WJwebviewjavascriptbridge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
+                  timestampString = "517903121.624473"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "278">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -63,14 +127,46 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "154"
             endingLineNumber = "154"
-            landmarkName = "-requestFromURL"
-            landmarkType = "7">
+            landmarkName = "@implementation WKWebViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewController goBackIfNeeded:]"
+                  moduleName = "WJwebviewjavascriptbridge_Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
+                  timestampString = "517903121.517975"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[WKWebViewController goBackIfNeeded:]"
+                  moduleName = "WJwebviewjavascriptbridge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
+                  timestampString = "517903121.628212"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
@@ -86,7 +182,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
@@ -95,7 +191,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "288"
             endingLineNumber = "288"
-            landmarkName = "-webView:didStartProvisionalNavigation:"
+            landmarkName = "-webView:didFailProvisionalNavigation:withError:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -111,14 +207,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "283"
             endingLineNumber = "283"
-            landmarkName = "-webView:didFinishNavigation:"
+            landmarkName = "-webView:didFailProvisionalNavigation:withError:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
@@ -127,7 +223,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "284"
             endingLineNumber = "284"
-            landmarkName = "-webView:didFinishNavigation:"
+            landmarkName = "-webView:didFailProvisionalNavigation:withError:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -145,38 +241,6 @@
             endingLineNumber = "231"
             landmarkName = "-updateLeftNavigationItems"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[WKWebViewController updateLeftNavigationItems]"
-                  moduleName = "WJwebviewjavascriptbridge_Example"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/public/WKWebViewController.m"
-                  timestampString = "517891966.953489"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "231"
-                  endingLineNumber = "231"
-                  offsetFromSymbolStart = "77">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[WKWebViewController updateLeftNavigationItems]"
-                  moduleName = "WJwebviewjavascriptbridge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/public/WKWebViewController.m"
-                  timestampString = "517891967.249906"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "231"
-                  endingLineNumber = "231"
-                  offsetFromSymbolStart = "77">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -193,38 +257,22 @@
             endingLineNumber = "229"
             landmarkName = "-updateLeftNavigationItems"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[WKWebViewController updateLeftNavigationItems]"
-                  moduleName = "WJwebviewjavascriptbridge_Example"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/public/WKWebViewController.m"
-                  timestampString = "517891967.040957"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "229"
-                  endingLineNumber = "229"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[WKWebViewController updateLeftNavigationItems]"
-                  moduleName = "WJwebviewjavascriptbridge"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wujie/Documents/WJwebviewjavascriptbridge/WJwebviewjavascriptbridge/Classes/public/WKWebViewController.m"
-                  timestampString = "517891967.254455"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "229"
-                  endingLineNumber = "229"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../WJwebviewjavascriptbridge/Classes/WKWebViewController.m"
+            timestampString = "517903112.327634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
+            landmarkName = "-webView:didFailProvisionalNavigation:withError:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
