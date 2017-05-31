@@ -1,6 +1,6 @@
 {
   "name": "WJwebviewjavascriptbridge",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "OC与JS的交互",
   "description": "+OC与JS的交互",
   "homepage": "https://github.com/wujiegoodluck/WJwebviewjavascriptbridge",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wujiegoodluck/WJwebviewjavascriptbridge.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"
