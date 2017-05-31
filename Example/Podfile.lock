@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WJwebviewjavascriptbridge (0.1.7)
+  - WJwebviewjavascriptbridge (0.1.8)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WJwebviewjavascriptbridge: 3c7a9b953ace4f4c715fa4a35ce46bcc4d6e625d
+  WJwebviewjavascriptbridge: e001ac524319092e62b7f8799e74638e1f851a83
 
 PODFILE CHECKSUM: 0d8234515a7e2c260fd9f070cda402f6632cedd7
 
